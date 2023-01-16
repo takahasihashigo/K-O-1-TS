@@ -1,0 +1,39 @@
+/*
+// shingoのスタイル
+*/
+
+
+body {
+    background-color: orange;
+}
+
+img {
+    width: 100%;
+}
+
+.containen {
+    background-color: aqua;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.img-box{
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap : wrap;
+}
+
+.img-item{
+    width: 22%;
+}
+
+.text-box{
+    border-top: 1px solid black;
+}
+
+.text-place{
+    font-weight: bold;
+    font-size: large;
+}
